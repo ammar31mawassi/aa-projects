@@ -2,6 +2,10 @@
 
 A static React/Vite website for Ammar and Adam's programming and 3D printing build logs.
 
+Live site: https://aa-projects.vercel.app
+
+GitHub repo: https://github.com/ammar31mawassi/aa-projects
+
 ## Edit Content
 
 - Projects: edit `src/data/projects.js`.
@@ -38,8 +42,16 @@ npm run build
 
 Recommended: Vercel. It is free for this kind of static site and will be easier if the site later gets an admin/database.
 
-1. Push this folder to GitHub.
-2. Import the repository in Vercel.
+Current production deployment:
+
+```text
+https://aa-projects.vercel.app
+```
+
+Future updates:
+
+1. Commit and push changes to GitHub.
+2. Vercel will deploy from the connected repository.
 3. Use the default Vite settings:
    - Build command: `npm run build`
    - Output directory: `dist`
